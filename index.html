@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header d-flex justify-content-center">
+        <h1>Job review in India</h1>
+    </div>
+    <div class="container">
+        <div class="align-self-start">
+            <form action="/fform" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="age">Age:</label><br>
+                <input type="text" id="age" name="age"><br>
+                <label for="bestjob">Best Job:</label>
+                <select id="bestjob" name="bestjob">
+                    <option value="selforg">self-Organization</option>
+                    <option value="def">Defense</option>
+                    <option value="gov">Government Job</option>
+                    <option value="ent">Entrepreneur</option>
+                    <option value="sm">Sales & Marketing</option>
+                    <option value="med">Medical field</option>
+                    <option value="tech">Teaching</option>
+                    <option value="itjob">IT Job</option>
+                    <option value="con">Construction</option>
+                    <option value="auto">Automobile</option>
+                    <option value="fl">Freelancing</option>
+                    <option value="fa">Farming</option>
+                    <option value="other">Others</option>
+                </select><br><br>
+                <label for="description1">Why so (best)<span><b>*</b></span>:</label>
+                <textarea for="text" id="desc1" name="description1"></textarea><br>
+                <label for="worstjob">Worst Job:</label>
+                <select id="worstjob" name="worstjob">
+                    <option value="selforg">self-Organization</option>
+                    <option value="def">Defense</option>
+                    <option value="gov">Government Job</option>
+                    <option value="ent">Entrepreneur</option>
+                    <option value="sm">Sales & Marketing</option>
+                    <option value="med">Medical field</option>
+                    <option value="tech">Teaching</option>
+                    <option value="itjob">IT Job</option>
+                    <option value="con">Construction</option>
+                    <option value="auto">Automobile</option>
+                    <option value="fl">Freelancing</option>
+                    <option value="fa">Farming</option>
+                    <option value="other">Others</option>
+                </select><br><br>
+                <label for="description2">Why so (worst)<span><b>*</b></span>:</label>
+                <textarea for="text" id="desc2" name="description2"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
